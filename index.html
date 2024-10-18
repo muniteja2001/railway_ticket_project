@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./trian_ticket.css">
+</head>
+<body>
+    <form id="trainForm" action="https://www.irctc.com" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+
+        <label for="from">From:</label>
+        <input type="text" id="from" name="from" placeholder="Enter your city" required/>
+
+        <label for="to">To:</label>
+        <input type="text" id="to" name="to" placeholder="Enter your destination" required/>
+
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required/>
+
+        <input type="button" value="Submit" class="btn" id="btn1">
+        <input type="button" value="Preview" class="btn" id="btn2">
+        <input type="button" value="Cancel" class="btn" id="btn3">
+    </form>
+
+    <script src="./train_ticket.js"></script>
+</body>
+</html>
