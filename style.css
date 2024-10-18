@@ -54,3 +54,53 @@ input[type="text"], input[type="date"] {
     background-color: gray;
     color: white;
 }
+@media screen and (max-width:850px) and (min-width:415px){
+    #trainForm{
+        position: relative;
+        top: -100px;
+        height: auto;
+        
+        
+
+    }
+    body{
+        background-image:url('./back.jpg') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+@media  screen and (min-width:320px) and (max-width:414px){
+    #trainForm{
+    
+    
+    height: auto;
+    width: auto;
+
+
+        
+
+    }
+    body{
+        background-image:url('./mobile.jpg') ;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+}
+@media screen and (max-width:319px){
+    #trainForm{
+    
+    
+        height: auto;
+        width: auto;
+        position: relative;
+        top: -50px;
+    
+    
+            
+    
+        }
+
+    
+}
